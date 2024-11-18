@@ -5,19 +5,11 @@ const numbers = [
   let even =[];
   let odd=[]
 
-  for (i=o;i<=numbers.length;i++){
-    if(number[i]%2==0){
-        even.push(numbers[i])
-    }else if(number[i]%2==1){
-        odd.push(numbers[i])
+  for (let i=0;i<=numbers.length;i++){
+    if(numbers[i]%2==0){
+        console.log(numbers[i],"Even")
+    }else if(numbers[i]%2==1){
+        console.log(numbers[i],"Odd")
     }
   }
-  console.log("Even numbers")
-  for(let i = 0; i<=even.lenght;i++){
-    console.log(even[i])
-  }
-
-  console.log("Odd numbers")
-  for(let i = 0; i<=odd.lenght;i++){
-    console.log(odd[i])
-  }
+  
